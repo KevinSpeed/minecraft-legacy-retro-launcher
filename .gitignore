@@ -1,0 +1,81 @@
+# Python-Umgebungen, Caches und Testausgaben
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+
+# Generierte Builds und heruntergeladene SDKs
+build/
+dist/
+_internal/
+bin/
+obj/
+vendor/
+/work/
+/outputs/
+*.exe
+*.dll
+*.pdb
+*.msi
+*.msix
+*.nupkg
+*.zip
+*.7z
+
+# source/RetroCraft.spec, source/assets/ und licenses/ bleiben versioniert.
+# Frühere Chromium-Kopie wird im aktuellen WebView2-Build nicht mitgeliefert.
+/licenses/QtWebEngine/
+
+# Lokale Kontodaten, Einstellungen und Launcher-Caches
+account.bin
+account.tmp
+settings.json
+settings.tmp
+versions.json
+versions.tmp
+news.json
+news.tmp
+.test-data/
+.launcher-data/
+RetroMinecraftLauncher/
+**/web/webview2/
+**/web/tumblr/
+
+# Minecraft-Installationen und persönliche Spielstände
+.minecraft/
+minecraft/
+saves/
+logs/
+crash-reports/
+*.jar
+*.log
+
+# Private Umgebungsvariablen, Schlüssel und Signierzertifikate
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.pfx
+*.p12
+
+# Editor-, Betriebssystem- und temporäre Dateien
+.idea/
+.vs/
+.vscode/
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.tmp
+*.bak
+*.swp
+*~
